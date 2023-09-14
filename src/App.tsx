@@ -6,7 +6,8 @@ import Rating from "./components/Rating/Rating";
 function App() {
     return (
         <div>
-            <Accordion/>
+            <Accordion titleValue={"Menu"}/>
+            <Accordion titleValue={"Users"}/>
             <Rating value={0}/>
             <Rating value={1}/>
             <Rating value={2}/>
